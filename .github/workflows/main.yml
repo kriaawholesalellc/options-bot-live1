@@ -1,0 +1,6 @@
+ALPACA_API_KEY=your_key
+ALPACA_SECRET_KEY=your_secret
+ALPHA_VANTAGE_API_KEY=your_key
+TELEGRAM_BOT_TOKEN=your_bot_token
+TELEGRAM_CHAT_ID=your_chat_id
+BOT_TIMEZONE=America/New_York
