@@ -1,0 +1,7 @@
+services:
+  - type: cron
+    name: options-bot
+    runtime: python
+    schedule: "0 9,11,14 * * 1-5"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python scheduled_live_top_options_bot_accuracy_upgraded.py run_once --symbols SPY QQQ AAPL TSLA NVDA AMD META --macro-calendar macro_calendar.csv --top 5 --csv --telegram"
